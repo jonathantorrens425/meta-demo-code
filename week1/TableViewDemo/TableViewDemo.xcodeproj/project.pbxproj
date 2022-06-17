@@ -18,6 +18,7 @@
 		6BD7B95E285A63F100FC25B1 /* TableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7B95D285A63F100FC25B1 /* TableViewDemoUITests.m */; };
 		6BD7B960285A63F100FC25B1 /* TableViewDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7B95F285A63F100FC25B1 /* TableViewDemoUITestsLaunchTests.m */; };
 		6BD7B9AF285B97F800FC25B1 /* TitleCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7B9AE285B97F800FC25B1 /* TitleCellTableViewCell.m */; };
+		6BD7B9B2285CE4D900FC25B1 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD7B9B1285CE4D900FC25B1 /* DetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		6BD7B95F285A63F100FC25B1 /* TableViewDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
 		6BD7B9AD285B97F800FC25B1 /* TitleCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCellTableViewCell.h; sourceTree = "<group>"; };
 		6BD7B9AE285B97F800FC25B1 /* TitleCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCellTableViewCell.m; sourceTree = "<group>"; };
+		6BD7B9B0285CE4D900FC25B1 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		6BD7B9B1285CE4D900FC25B1 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				6BD7B949285A63F000FC25B1 /* main.m */,
 				6BD7B9AD285B97F800FC25B1 /* TitleCellTableViewCell.h */,
 				6BD7B9AE285B97F800FC25B1 /* TitleCellTableViewCell.m */,
+				6BD7B9B0285CE4D900FC25B1 /* DetailsViewController.h */,
+				6BD7B9B1285CE4D900FC25B1 /* DetailsViewController.m */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				6BD7B93F285A63EE00FC25B1 /* ViewController.m in Sources */,
 				6BD7B939285A63EE00FC25B1 /* AppDelegate.m in Sources */,
 				6BD7B9AF285B97F800FC25B1 /* TitleCellTableViewCell.m in Sources */,
+				6BD7B9B2285CE4D900FC25B1 /* DetailsViewController.m in Sources */,
 				6BD7B94A285A63F000FC25B1 /* main.m in Sources */,
 				6BD7B93C285A63EE00FC25B1 /* SceneDelegate.m in Sources */,
 			);

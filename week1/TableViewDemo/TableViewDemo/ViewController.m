@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "TitleCellTableViewCell.h"
+#import "DetailsViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -19,6 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    [UIAlertController alertControllerWithTitle:@"" message:<#(nullable NSString *)#> preferredStyle:<#(UIAlertControllerStyle)#>]
     
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
@@ -66,5 +69,16 @@
     return cell;
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    TitleCellTableViewCell *cell = sender;
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+    NSDictionary *dataToPass = self.results[indexPath.row];
+    
+    DetailsViewController *detailsVC = [segue destinationViewController];
+    detailsVC.movieInfo = dataToPass;
+    
+    
+}
 
 @end
